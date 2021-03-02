@@ -33,28 +33,6 @@ import PropTypes from 'prop-types';
   `}
 `;
 
-/*
-const Title = styled.h1`
-  position: relative;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-  margin-left: 0;
-  border-bottom: 1px solid rgba(255,255,255, 0.2);
-
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    background-color: ${colorYellow};
-    height: 5px;
-    width: 70px;
-  }
-`;
-
-*/
 
 const Content = styled.div`
 p,
