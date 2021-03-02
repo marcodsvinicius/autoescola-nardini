@@ -1969,7 +1969,7 @@
     core-js "^3.0.1"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-docs@6.1.20":
+"@storybook/addon-docs@6.1.20", "@storybook/addon-docs@^6.1.20":
   version "6.1.20"
   resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-6.1.20.tgz#390ea245686cfc464cfb94d441e494f1dbaf1b89"
   integrity sha512-dc51UHcgMe/sa68+GFaJALJnkxoU8HNmNJmjwJoxZ1boTMC9D6CjVZl3tGqoLwoStlGB98lM7s+esONz+RAXtA==

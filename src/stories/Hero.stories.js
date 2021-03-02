@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Hero from "../components/Hero";
 import BgHighwayImage from "./assets/carro.jpg";
 import BgCarImage from "./assets/carro2.jpg";
@@ -16,7 +15,9 @@ export const usage = () =>
 </Hero>
 
 export const withList = () => (
-  <Hero title="Ganhe sua liberdade para ir e vir" image={BgCarImage}>
+  <Hero title={
+    <span>    Ganhe sua <strong> liberdade </strong> <br /> para ir e vir</span>
+    } image={BgCarImage}>
   <ul>
     <li>Lorem ipsum dolor sit amet consect.</li>
     <li>Lorem ipsum dolor sit amet consect.</li>
