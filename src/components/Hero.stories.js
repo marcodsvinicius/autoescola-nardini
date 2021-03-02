@@ -3,7 +3,7 @@ import { text } from "@storybook/addon-knobs"
 import Hero from "../components/Hero";
 import BgHighwayImage from "../stories/assets/carro.jpg";
 import BgCarImage from "../stories/assets/carro2.jpg";
-import GlobalStyle from "../components/GlobalStyle"
+import GlobalStyle from "../styles/GlobalStyle"
 import Heading from "./Heading";
 
 export default {
