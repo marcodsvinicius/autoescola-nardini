@@ -33,6 +33,7 @@ import PropTypes from 'prop-types';
   `}
 `;
 
+/*
 const Title = styled.h1`
   position: relative;
   font-weight: 700;
@@ -51,11 +52,9 @@ const Title = styled.h1`
     height: 5px;
     width: 70px;
   }
-
-  strong {
-    color: ${colorYellow};
-  }
 `;
+
+*/
 
 const Content = styled.div`
 p,
@@ -77,10 +76,9 @@ li {
 }
 `;
 
-const Hero = ({image,title, children}) => (
+const Hero = ({image, children}) => (
   <Root image={image}>
     <Container>
-      <Title>{title}</Title>
       <Content> {children} </Content>
     </Container>
   </Root>
@@ -88,7 +86,6 @@ const Hero = ({image,title, children}) => (
 
 Hero.propTypes = {
   image: PropTypes.string,
-  title: PropTypes.oneOfType([ PropTypes.string, PropTypes.element ]),
   children: PropTypes.node,
 };
 
